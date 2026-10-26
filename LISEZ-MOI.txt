@@ -1,0 +1,23 @@
+MANDIGO SARL — Gestion des cartes stagiaires (version améliorée)
+
+INSTALLATION
+1. Décompressez le ZIP.
+2. Copiez le dossier MANDIGO_CARTES_STAGIAIRES dans C:\\wamp64\\www\\
+3. Vérifiez que logo.jpeg est à côté de index.html.
+4. Démarrez WampServer et ouvrez :
+   http://localhost/MANDIGO_CARTES_STAGIAIRES/
+
+FONCTIONS
+- Formulaire : matricule, nom, prénoms, formation, statut
+- Aucun champ date ni téléphone
+- Ajout de photo (moins de 2 Mo)
+- Carte avec logo Mandigo et couleurs prévues pour l'impression
+- Impression d'une carte ou impression groupée de toutes les cartes sur A4
+- Recherche, modification, suppression et export CSV
+
+IMPORTANT POUR GARDER LES COULEURS À L'IMPRESSION
+Dans la fenêtre d'impression du navigateur, ouvrez Plus de paramètres et activez
+« Graphiques d'arrière-plan » / « Imprimer les arrière-plans » si cette option existe.
+Le navigateur ou l'imprimante peut autrement supprimer les fonds colorés.
+
+Les fiches sont stockées dans le navigateur de cet ordinateur (localStorage), pas dans MySQL.
